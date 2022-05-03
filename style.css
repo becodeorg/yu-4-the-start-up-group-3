@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(images/header-img.jpg);
+    height: 420px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.text-heading{
+    text-align: center;
+    padding: 30px ;
+    padding-top: 10%;
+    width: 500px;
+    color: #111;
+    background: transparent;
+    background-color: rgb(255,255,255,.2);
+    
+}
+.img-heading{
+    width: 300px;
+}
