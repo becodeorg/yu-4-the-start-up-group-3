@@ -1,8 +1,17 @@
+/* General website colors */
+.primary-color {
+    color: #211a4c;
+}
+.secondary-color {
+    color: #e62e2d;
+}
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .bg-image{
     background-image: url(images/header-img.jpg);
     height: 420px;
@@ -10,8 +19,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
 .text-heading{
     text-align: center;
     padding: 30px ;
@@ -26,13 +35,13 @@
     width: 300px;
 }
 
+/* Card box, six cards images */
 .featured-img {
-    height: 250px;
-    width: 120px;
+    height: 15rem;
+    width: 200%;
 }
 
  /* testimonials carousel */
-
  #testimonials {
      text-align: center;
      background-color: rgb(235, 54, 54);
