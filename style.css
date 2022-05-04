@@ -119,3 +119,14 @@ transform: scale(1.1);
      transform: scale(1.1); 
  }
 
+ /* Social icons */
+
+ .social-icon {
+     transition: all .7s ease-in-out; 
+ }
+
+ .social-icon:hover {
+     transform: scale(1.3); 
+
+ }
+
