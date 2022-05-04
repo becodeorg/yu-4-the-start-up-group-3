@@ -1,5 +1,5 @@
 .bg-image   {
-    background-image: url(images/header-img.jpg);
+    background-image: url(images/Concept-Group.jpeg);
     height: 320px;
     position: relative;
     background-position: center;
@@ -11,4 +11,5 @@
     margin: 350px;
     margin-top: 30px;
     margin-bottom: 100px;
+    color: #211a4c;
 }
