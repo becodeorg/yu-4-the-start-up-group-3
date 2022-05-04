@@ -25,3 +25,22 @@
 .img-heading{
     width: 300px;
 }
+
+/* testimonial slider  */
+
+ #testimonials {
+     text-align: center;
+     background-color: rgb(235, 54, 54);
+     color: rgb(52, 52, 228);
+
+
+ }
+ .testimonial-text {
+     font-size: 2rem;
+     line-height: 1.5;
+ }
+ .testimonial-image {
+     width: 10%;
+     padding-top: 3%;
+     paddding-bottom:3%;
+ }
