@@ -55,12 +55,17 @@
 .featured-img {
     width: 100px;
     height: 250px;
+    transition: all .2s ease-in-out; 
     
 }
 .container-images {
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 4rem;
+}
+
+.featured-img:hover { 
+transform: scale(1.1); 
 }
 
  /* testimonials carousel */
@@ -93,5 +98,16 @@
     background-repeat: no-repeat;
     background-size: cover;
      
+ }
+
+ /* servise images */
+
+
+ .service-img {
+      transition: all .2s ease-in-out; 
+ }
+
+ .service-img:hover {
+     transform: scale(1.1); 
  }
 
