@@ -13,7 +13,7 @@
 <body>
    
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top px-5">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top px-5" style="background-color: #e62e2d;">
     <a class="navbar-brand pt-2" href="#"><img src="./images/Aanemers_290_x_60_px.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
@@ -43,12 +43,12 @@
   <div class="bg-image row">
     <div class="container text-heading">
       <div class="text">
-        <h3>WELCOME</h3>
-        <h1 style="color: red;">RAW-PLUMMER</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing <br> elit. Labore voluptatum
+        <h3 class="secondary-color">WELCOME</h3>
+        <h1 class="primary-color">RAW-PLUMMER</h1>
+        <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing <br> elit. Labore voluptatum
           quisquam quas eius, saepe placeat esse in unde ratione vero.</p>
-        <a href="#" class="btn btn-danger rounded-pill">Learn More</a>
-        <a href="#" class="btn btn-danger rounded-pill">Learn More</a>
+        <a href="#" class="btn btn-danger rounded-pill" style="background-color: #e62e2d;" >Our Servises</a>
+        <a href="#" class="btn btn-danger rounded-pill" style="background-color: #e62e2d;">Contact Us</a>
       </div>
     </div>
   </div>
@@ -57,12 +57,12 @@
   <div class="container bg-light pt-5 pb-5 border">
     <div class="row justify-content-center">
         <div class="col-lg-4 col-sm-12 pt-5 ps-10">
-            <h6 style="color: red;">Lorem ipsum dolor sit.</h6>
-            <h5 class="card-title pt-1">Card title</h5>
-            <p class="card-text pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <h6 class="secondary-color">Lorem ipsum dolor sit.</h6>
+            <h5 class="card-title pt-1 primary-color">Card title</h5>
+            <p class="card-text pt-2 text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Veritatis aperiam hic nesciunt voluptatem accusantium blanditiis maxime at culpa
                 temporibus. Provident id nulla enim magni tempore.</p>
-            <a href="#" class="btn btn-danger rounded-pill pt-2">Go somewhere</a>
+            <a href="#" class="btn btn-danger rounded-pill pt-2" style="background-color: #e62e2d;">Go somewhere</a>
         </div>
         <div class="col-lg-4 col-sm-12 ">
             <img class="img-heading" src="images/plummer-woman.jpg" alt="quistionmark img">
@@ -71,14 +71,15 @@
   </div>
 
   <!-- Below is the "Featured Services" section with 6 card boxes, 3 on top of 3 -->
-  <div style="text-align: center; padding-top: 4rem; padding-bottom: 4rem;"><h1>FEATURED SERVICES</h1>
+  <div style="text-align: center; padding-top: 4rem; padding-bottom: 2rem;"><h2 class="primary-color">FEATURED SERVICES</h2>
   </div>
-  <div class="row row-cols-1 row-cols-md-3 g-5 m-5 text-center">
+  <div class="container-images">
+  <div class="row row-cols-1 row-cols-md-3 g-5 m-5 text-center" >
     <div class="col">
       <div class="card h-100">
         <img src="./images/image4.jpg" class="card-img-top featured-img" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Gasline Services</h5>
+          <h5 class="card-title secondary-color">Gasline Services</h5>
           <p class="card-text"></p>
         </div>
       </div>
@@ -87,7 +88,7 @@
       <div class="card h-100">
         <img src="./images/image2.jpg" class="card-img-top featured-img" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Bathroom Plumbing</h5>
+          <h5 class="card-title secondary-color">Bathroom Plumbing</h5>
           <p class="card-text"></p>
         </div>
       </div>
@@ -96,7 +97,7 @@
       <div class="card h-100">
         <img src="./images/image5.jpg" class="card-img-top featured-img" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Drain Cleaning</h5>
+          <h5 class="card-title secondary-color">Drain Cleaning</h5>
           <p class="card-text"></p>
         </div>
       </div>
@@ -107,7 +108,7 @@
       <div class="card h-100">
         <img src="./images/image7.jpg" class="card-img-top featured-img" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Kitchen Plumbing</h5>
+          <h5 class="card-title secondary-color">Kitchen Plumbing</h5>
           <p class="card-text"></p>
         </div>
       </div>
@@ -116,7 +117,7 @@
       <div class="card h-100">
         <img src="./images/image6.jpeg" class="card-img-top featured-img" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Waterline Repair</h5>
+          <h5 class="card-title secondary-color">Waterline Repair</h5>
           <p class="card-text"></p>
         </div>
       </div>
@@ -125,30 +126,31 @@
       <div class="card h-100">
         <img src="./images/image3.jpg" class="card-img-top featured-img" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Basement Plumbing</h5>
+          <h5 class="card-title secondary-color">Basement Plumbing</h5>
           <p class="card-text"></p>
         </div>
       </div>
     </div>
   </div>
+  </div>
 
     <!-- section 4 testimonials -->
 
 
- <section id="testimonials" class="py-4" > 
+ <section id="testimonials" > 
   <div id="carouselExampleControls" class="carousel slide container-fluid" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-       <h2 class="testimonial-text">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit. Fugit labore vero tenetur
+       <h2 class="testimonial-text primary-color">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit. Fugit labore vero tenetur
           quae, tempore cupiditate!</h2>
       <img class="testimonial-image" src="images/testimonial-woman.png" alt="First slide">
       <em class="pl-4">Saskia, New York</em>
     </div>
     <div class="carousel-item">
-      <h2 class="testimonial-text">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit. Fugit labore vero tenetur
+      <h2 class="testimonial-text primary-color">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit. Fugit labore vero tenetur
           quae, tempore cupiditate!</h2>
       <img class="testimonial-image" src="images/testimonial-men.png" alt="Second slide">
-      <em class="pl-4">Bobby, Las Vegas</em>
+      <em class="pl-4 primary-color">Bobby, Las Vegas</em>
     </div>
     
   </div>

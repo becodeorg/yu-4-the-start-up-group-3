@@ -5,6 +5,13 @@
 .secondary-color {
     color: #e62e2d;
 }
+.primary-bg-color {
+    background-color: #211a4c;
+}
+.secondary-bg-color {
+    background-color: #e62e2d;
+}
+
 
 *{
     margin:0;
@@ -37,15 +44,22 @@
 
 /* Card box, six cards images */
 .featured-img {
-    height: 15rem;
-    width: 200%;
+    width: 100px;
+    height: 250px;
+    
+}
+.container-images {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 4rem;
 }
 
  /* testimonials carousel */
  #testimonials {
      text-align: center;
-     background-color: rgb(235, 54, 54);
-     color: rgb(52, 52, 228);
+     background-color: #e62e2d;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
 
 
  }
