@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.bg{
+.bg-image{
     background-image: url(images/header-img.jpg);
     height: 420px;
     position: relative;
@@ -30,3 +30,23 @@
     height: 250px;
     width: 120px;
 }
+
+ /* testimonials carousel */
+
+ #testimonials {
+     text-align: center;
+     background-color: rgb(235, 54, 54);
+     color: rgb(52, 52, 228);
+
+
+ }
+ .testimonial-text {
+     font-size: 2rem;
+     line-height: 1.5;
+ }
+ .testimonial-image {
+     width: 10%;
+     padding-top: 3%;
+     paddding-bottom:3%;
+ }
+
