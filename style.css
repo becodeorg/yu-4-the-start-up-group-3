@@ -5,6 +5,13 @@
 .secondary-color {
     color: #e62e2d;
 }
+.primary-bg-color {
+    background-color: #211a4c;
+}
+.secondary-bg-color {
+    background-color: #e62e2d;
+}
+
 
 *{
     margin:0;
@@ -15,6 +22,23 @@
 .bg-image{
     background-image: url(images/header-img.jpg);
     height: 420px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image-two{
+    background-image: url(images/image2.jpg);
+    height: 380px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-image-three {
+     background-image: url(images/image2.jpg);
+    height: 380px;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,15 +61,27 @@
 
 /* Card box, six cards images */
 .featured-img {
-    height: 15rem;
-    width: 200%;
+    width: 100px;
+    height: 250px;
+    transition: all .2s ease-in-out; 
+    
+}
+.container-images {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 4rem;
+}
+
+.featured-img:hover { 
+transform: scale(1.1); 
 }
 
  /* testimonials carousel */
  #testimonials {
      text-align: center;
-     background-color: rgb(235, 54, 54);
-     color: rgb(52, 52, 228);
+     background-color: #e62e2d;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
 
 
  }
@@ -57,5 +93,29 @@
      width: 10%;
      padding-top: 3%;
      paddding-bottom:3%;
+ }
+
+ /* carousel services */
+
+ .testimonial-bg {
+     text-align: center;
+     background-image: url(images/plumber-carousel.png);
+    height: 380px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+ }
+
+ /* servise images */
+
+
+ .service-img {
+      transition: all .2s ease-in-out; 
+ }
+
+ .service-img:hover {
+     transform: scale(1.1); 
  }
 
