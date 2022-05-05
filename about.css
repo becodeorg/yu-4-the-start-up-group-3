@@ -15,4 +15,41 @@
     color: #211a4c;
 }
 
+/* unvisited link */
+a:link {
+    color: #e62e2d;
+    font-size: large;
+  }
+  
+/* visited link */
+a:visited {
+    color: #211a4c;
+}
 
+
+@media (max-width: 600px) {
+    .abouttext {
+        margin: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: #211a4c;
+    }
+  }
+
+@media (min-width: 600px) {
+    .abouttext {
+        margin: 100px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        color: #211a4c;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .abouttext {
+        margin: 300px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        color: #211a4c;
+    }
+  }
