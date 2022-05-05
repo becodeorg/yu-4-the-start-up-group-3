@@ -145,7 +145,6 @@ transform: scale(1.1);
 
  .social-icon:hover {
      transform: scale(1.3); 
-
  }
 
  /* contact page */
@@ -199,6 +198,16 @@ transform: scale(1.1);
  .btn:hover{
      transform: scale(1.1); 
  }
+ /* unvisited link */
+a:link {
+    color: #e62e2d;
+    font-size: large;
+  }
+  
+/* visited link */
+a:visited {
+    color: #211a4c;
+}
 
  /* responsive  */
 
