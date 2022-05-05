@@ -197,6 +197,16 @@ transform: scale(1.1);
  .btn:hover{
      transform: scale(1.1); 
  }
+ /* unvisited link */
+a:link {
+    color: #e62e2d;
+    font-size: large;
+  }
+  
+/* visited link */
+a:visited {
+    color: #211a4c;
+}
 
  /* responsive  */
 
@@ -207,5 +217,6 @@ transform: scale(1.1);
     .map-area{
         width: 100%;
         height: 400px;
+        margin-bottom: 30px;
     }
  }
